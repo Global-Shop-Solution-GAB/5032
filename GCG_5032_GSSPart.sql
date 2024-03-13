@@ -1,0 +1,3 @@
+CREATE TABLE "GCG_5032_GSSPart"(
+ "UserID" CHAR(8) NOT NULL ,
+ "Part" CHAR(20) NOT NULL );
