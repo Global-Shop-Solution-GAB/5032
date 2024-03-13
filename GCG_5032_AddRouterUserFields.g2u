@@ -1,0 +1,508 @@
+Program.Sub.ScreenSU.Start
+Gui.Form..Create
+Gui.Form..Caption("Additional User Fields")
+Gui.Form..Size(12855,6720)
+Gui.Form..MinX(0)
+Gui.Form..MinY(0)
+Gui.Form..Position(0,0)
+Gui.Form..BackColor(-2147483633)
+Gui.Form..MousePointer(0)
+Gui.Form..Event(UnLoad,Form_UnLoad)
+Gui.Form..MaxButton(False)
+Gui.Form..Sizeable(False)
+Gui.Form.tabUserFields.Create(Tab)
+Gui.Form.tabUserFields.Size(12765,6450)
+Gui.Form.tabUserFields.Position(0,0)
+Gui.Form.tabUserFields.DefaultValue("")
+Gui.Form.tabUserFields.Tabs(2)
+Gui.Form.tabUserFields.SetTab(0)
+Gui.Form.tabUserFields.Caption("User Fields")
+Gui.Form.tabUserFields.SetTab(1)
+Gui.Form.tabUserFields.Caption("User Field Titles")
+Gui.Form.txtTITLE1.Create(TextBox,"User 1",True,3045,300,0,90,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE1.Parent("tabUserFields",1)
+Gui.Form.txtTITLE1.MaxLength(20)
+Gui.Form.lblUSER1.Create(Label,"User 1",True,2985,255,0,120,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER1.Parent("tabUserFields",0)
+Gui.Form.txtUSER1.Create(TextBox,"",True,3045,750,0,90,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER1.Parent("tabUserFields",0)
+Gui.Form.txtUSER1.TabStop(True)
+Gui.Form.txtUSER1.TabIndex(1)
+Gui.Form.txtUSER1.MaxLength(50)
+Gui.Form.txtUSER2.Create(TextBox,"",True,3045,750,0,3240,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER2.Parent("tabUserFields",0)
+Gui.Form.txtUSER2.TabStop(True)
+Gui.Form.txtUSER2.TabIndex(1)
+Gui.Form.txtUSER2.MaxLength(50)
+Gui.Form.txtUSER3.Create(TextBox,"",True,3045,750,0,6390,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER3.Parent("tabUserFields",0)
+Gui.Form.txtUSER3.TabStop(True)
+Gui.Form.txtUSER3.TabIndex(1)
+Gui.Form.txtUSER3.MaxLength(50)
+Gui.Form.txtUSER4.Create(TextBox,"",True,3045,750,0,9540,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER4.Parent("tabUserFields",0)
+Gui.Form.txtUSER4.TabStop(True)
+Gui.Form.txtUSER4.TabIndex(1)
+Gui.Form.txtUSER4.MaxLength(50)
+Gui.Form.lblUSER2.Create(Label,"User 2",True,2985,255,0,3270,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER2.Parent("tabUserFields",0)
+Gui.Form.lblUSER3.Create(Label,"User 3",True,2985,255,0,6420,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER3.Parent("tabUserFields",0)
+Gui.Form.lblUSER4.Create(Label,"User 4",True,2985,255,0,9570,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER4.Parent("tabUserFields",0)
+Gui.Form.lblUSER5.Create(Label,"User 5",True,2985,255,0,120,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER5.Parent("tabUserFields",0)
+Gui.Form.txtUSER5.Create(TextBox,"",True,3045,750,0,90,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER5.Parent("tabUserFields",0)
+Gui.Form.txtUSER5.TabStop(True)
+Gui.Form.txtUSER5.TabIndex(1)
+Gui.Form.txtUSER5.MaxLength(50)
+Gui.Form.txtUSER6.Create(TextBox,"",True,3045,750,0,3240,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER6.Parent("tabUserFields",0)
+Gui.Form.txtUSER6.TabStop(True)
+Gui.Form.txtUSER6.TabIndex(1)
+Gui.Form.txtUSER6.MaxLength(50)
+Gui.Form.txtUSER7.Create(TextBox,"",True,3045,750,0,6390,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER7.Parent("tabUserFields",0)
+Gui.Form.txtUSER7.TabStop(True)
+Gui.Form.txtUSER7.TabIndex(1)
+Gui.Form.txtUSER7.MaxLength(50)
+Gui.Form.txtUSER8.Create(TextBox,"",True,3045,750,0,9540,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER8.Parent("tabUserFields",0)
+Gui.Form.txtUSER8.TabStop(True)
+Gui.Form.txtUSER8.TabIndex(1)
+Gui.Form.txtUSER8.MaxLength(50)
+Gui.Form.lblUSER6.Create(Label,"User 6",True,2985,255,0,3270,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER6.Parent("tabUserFields",0)
+Gui.Form.lblUSER7.Create(Label,"User 7",True,2985,255,0,6420,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER7.Parent("tabUserFields",0)
+Gui.Form.lblUSER8.Create(Label,"User 8",True,2985,255,0,9570,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER8.Parent("tabUserFields",0)
+Gui.Form.lblUSER9.Create(Label,"User 9",True,2985,255,0,120,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER9.Parent("tabUserFields",0)
+Gui.Form.txtUSER9.Create(TextBox,"",True,3045,750,0,90,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER9.Parent("tabUserFields",0)
+Gui.Form.txtUSER9.TabStop(True)
+Gui.Form.txtUSER9.TabIndex(1)
+Gui.Form.txtUSER9.MaxLength(50)
+Gui.Form.txtUSER10.Create(TextBox,"",True,3045,750,0,3240,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER10.Parent("tabUserFields",0)
+Gui.Form.txtUSER10.TabStop(True)
+Gui.Form.txtUSER10.TabIndex(1)
+Gui.Form.txtUSER10.MaxLength(50)
+Gui.Form.txtUSER11.Create(TextBox,"",True,3045,750,0,6390,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER11.Parent("tabUserFields",0)
+Gui.Form.txtUSER11.TabStop(True)
+Gui.Form.txtUSER11.TabIndex(1)
+Gui.Form.txtUSER11.MaxLength(50)
+Gui.Form.txtUSER12.Create(TextBox,"",True,3045,750,0,9540,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER12.Parent("tabUserFields",0)
+Gui.Form.txtUSER12.TabStop(True)
+Gui.Form.txtUSER12.TabIndex(1)
+Gui.Form.txtUSER12.MaxLength(50)
+Gui.Form.lblUSER10.Create(Label,"User 10",True,2985,255,0,3270,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER10.Parent("tabUserFields",0)
+Gui.Form.lblUSER11.Create(Label,"User 11",True,2985,255,0,6420,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER11.Parent("tabUserFields",0)
+Gui.Form.lblUSER12.Create(Label,"User 12",True,2985,255,0,9570,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER12.Parent("tabUserFields",0)
+Gui.Form.lblUSER13.Create(Label,"User 13",True,2985,255,0,120,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER13.Parent("tabUserFields",0)
+Gui.Form.txtUSER13.Create(TextBox,"",True,3045,750,0,90,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER13.Parent("tabUserFields",0)
+Gui.Form.txtUSER13.TabStop(True)
+Gui.Form.txtUSER13.TabIndex(1)
+Gui.Form.txtUSER13.MaxLength(50)
+Gui.Form.txtUSER14.Create(TextBox,"",True,3045,750,0,3240,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER14.Parent("tabUserFields",0)
+Gui.Form.txtUSER14.TabStop(True)
+Gui.Form.txtUSER14.TabIndex(1)
+Gui.Form.txtUSER14.MaxLength(50)
+Gui.Form.txtUSER15.Create(TextBox,"",True,3045,750,0,6390,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER15.Parent("tabUserFields",0)
+Gui.Form.txtUSER15.TabStop(True)
+Gui.Form.txtUSER15.TabIndex(1)
+Gui.Form.txtUSER15.MaxLength(50)
+Gui.Form.txtUSER16.Create(TextBox,"",True,3045,750,0,9540,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER16.Parent("tabUserFields",0)
+Gui.Form.txtUSER16.TabStop(True)
+Gui.Form.txtUSER16.TabIndex(1)
+Gui.Form.txtUSER16.MaxLength(50)
+Gui.Form.lblUSER14.Create(Label,"User 14",True,2985,255,0,3270,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER14.Parent("tabUserFields",0)
+Gui.Form.lblUSER15.Create(Label,"User 15",True,2985,255,0,6420,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER15.Parent("tabUserFields",0)
+Gui.Form.lblUSER16.Create(Label,"User 16",True,2985,255,0,9570,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER16.Parent("tabUserFields",0)
+Gui.Form.lblUSER17.Create(Label,"User 17",True,2985,255,0,120,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER17.Parent("tabUserFields",0)
+Gui.Form.txtUSER17.Create(TextBox,"",True,3045,750,0,90,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER17.Parent("tabUserFields",0)
+Gui.Form.txtUSER17.TabStop(True)
+Gui.Form.txtUSER17.TabIndex(1)
+Gui.Form.txtUSER17.MaxLength(50)
+Gui.Form.txtUSER18.Create(TextBox,"",True,3045,750,0,3240,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER18.Parent("tabUserFields",0)
+Gui.Form.txtUSER18.TabStop(True)
+Gui.Form.txtUSER18.TabIndex(1)
+Gui.Form.txtUSER18.MaxLength(50)
+Gui.Form.txtUSER19.Create(TextBox,"",True,3045,750,0,6390,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER19.Parent("tabUserFields",0)
+Gui.Form.txtUSER19.TabStop(True)
+Gui.Form.txtUSER19.TabIndex(1)
+Gui.Form.txtUSER19.MaxLength(50)
+Gui.Form.txtUSER20.Create(TextBox,"",True,3045,750,0,9540,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtUSER20.Parent("tabUserFields",0)
+Gui.Form.txtUSER20.TabStop(True)
+Gui.Form.txtUSER20.TabIndex(1)
+Gui.Form.txtUSER20.MaxLength(50)
+Gui.Form.lblUSER18.Create(Label,"User 18",True,2985,255,0,3270,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER18.Parent("tabUserFields",0)
+Gui.Form.lblUSER19.Create(Label,"User 19",True,2985,255,0,6420,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER19.Parent("tabUserFields",0)
+Gui.Form.lblUSER20.Create(Label,"User 20",True,2985,255,0,9570,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblUSER20.Parent("tabUserFields",0)
+Gui.Form.cmdUSERSave.Create(Button)
+Gui.Form.cmdUSERSave.Size(855,375)
+Gui.Form.cmdUSERSave.Position(285,5625)
+Gui.Form.cmdUSERSave.Parent("tabUserFields",0)
+Gui.Form.cmdUSERSave.Caption("Save")
+Gui.Form.cmdUSERSave.Event(Click,cmdSave_Click)
+Gui.Form.lblTitle1.Create(Label,"User 1 Title",True,1005,255,0,120,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle1.Parent("tabUserFields",1)
+Gui.Form.txtTITLE2.Create(TextBox,"User 2",True,3045,300,0,3240,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE2.Parent("tabUserFields",1)
+Gui.Form.txtTITLE2.MaxLength(20)
+Gui.Form.txtTITLE3.Create(TextBox,"User 3",True,3045,300,0,6390,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE3.Parent("tabUserFields",1)
+Gui.Form.txtTITLE3.MaxLength(20)
+Gui.Form.txtTITLE4.Create(TextBox,"User 4",True,3045,300,0,9540,270,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE4.Parent("tabUserFields",1)
+Gui.Form.txtTITLE4.MaxLength(20)
+Gui.Form.lblTitle2.Create(Label,"User 2 Title",True,1005,255,0,3270,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle2.Parent("tabUserFields",1)
+Gui.Form.lblTitle3.Create(Label,"User 3 Title",True,1005,255,0,6420,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle3.Parent("tabUserFields",1)
+Gui.Form.lblTitle4.Create(Label,"User 4 Title",True,1005,255,0,9570,75,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle4.Parent("tabUserFields",1)
+Gui.Form.lblTitle5.Create(Label,"User 5 Title",True,1005,255,0,120,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle5.Parent("tabUserFields",1)
+Gui.Form.lblTitle6.Create(Label,"User 6 Title",True,1005,255,0,3270,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle6.Parent("tabUserFields",1)
+Gui.Form.lblTitle7.Create(Label,"User 7 Title",True,1005,255,0,6420,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle7.Parent("tabUserFields",1)
+Gui.Form.lblTitle8.Create(Label,"User 8 Title",True,1005,255,0,9570,1185,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle8.Parent("tabUserFields",1)
+Gui.Form.lblTitle9.Create(Label,"User 9 Title",True,1005,255,0,120,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle9.Parent("tabUserFields",1)
+Gui.Form.lblTitle10.Create(Label,"User 10 Title",True,1005,255,0,3270,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle10.Parent("tabUserFields",1)
+Gui.Form.lblTitle11.Create(Label,"User 11 Title",True,1005,255,0,6420,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle11.Parent("tabUserFields",1)
+Gui.Form.lblTitle12.Create(Label,"User 12 Title",True,1005,255,0,9570,2295,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle12.Parent("tabUserFields",1)
+Gui.Form.lblTitle13.Create(Label,"User 13 Title",True,1005,255,0,120,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle13.Parent("tabUserFields",1)
+Gui.Form.lblTitle14.Create(Label,"User 14 Title",True,1005,255,0,3270,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle14.Parent("tabUserFields",1)
+Gui.Form.lblTitle15.Create(Label,"User 15 Title",True,1005,255,0,6420,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle15.Parent("tabUserFields",1)
+Gui.Form.lblTitle16.Create(Label,"User 16 Title",True,1005,255,0,9570,3405,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle16.Parent("tabUserFields",1)
+Gui.Form.lblTitle17.Create(Label,"User 17 Title",True,1005,255,0,120,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle17.Parent("tabUserFields",1)
+Gui.Form.lblTitle18.Create(Label,"User 18 Title",True,1005,255,0,3270,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle18.Parent("tabUserFields",1)
+Gui.Form.lblTitle19.Create(Label,"User 19 Title",True,1005,255,0,6420,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle19.Parent("tabUserFields",1)
+Gui.Form.lblTitle20.Create(Label,"User 20 Title",True,1005,255,0,9570,4515,True,0,"Arial",8,-2147483633,0)
+Gui.Form.lblTitle20.Parent("tabUserFields",1)
+Gui.Form.txtTITLE5.Create(TextBox,"User 5",True,3045,300,0,90,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE5.Parent("tabUserFields",1)
+Gui.Form.txtTITLE5.MaxLength(20)
+Gui.Form.txtTITLE6.Create(TextBox,"User 6",True,3045,300,0,3240,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE6.Parent("tabUserFields",1)
+Gui.Form.txtTITLE6.MaxLength(20)
+Gui.Form.txtTITLE7.Create(TextBox,"User 7",True,3045,300,0,6390,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE7.Parent("tabUserFields",1)
+Gui.Form.txtTITLE7.MaxLength(20)
+Gui.Form.txtTITLE8.Create(TextBox,"User 8",True,3045,300,0,9540,1380,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE8.Parent("tabUserFields",1)
+Gui.Form.txtTITLE8.MaxLength(20)
+Gui.Form.txtTITLE9.Create(TextBox,"User 9",True,3045,300,0,90,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE9.Parent("tabUserFields",1)
+Gui.Form.txtTITLE9.MaxLength(20)
+Gui.Form.txtTITLE10.Create(TextBox,"User 10",True,3045,300,0,3240,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE10.Parent("tabUserFields",1)
+Gui.Form.txtTITLE10.MaxLength(20)
+Gui.Form.txtTITLE11.Create(TextBox,"User 11",True,3045,300,0,6390,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE11.Parent("tabUserFields",1)
+Gui.Form.txtTITLE11.MaxLength(20)
+Gui.Form.txtTITLE12.Create(TextBox,"User 12",True,3045,300,0,9540,2490,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE12.Parent("tabUserFields",1)
+Gui.Form.txtTITLE12.MaxLength(20)
+Gui.Form.txtTITLE13.Create(TextBox,"User 13",True,3045,300,0,90,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE13.Parent("tabUserFields",1)
+Gui.Form.txtTITLE13.MaxLength(20)
+Gui.Form.txtTITLE14.Create(TextBox,"User 14",True,3045,300,0,3240,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE14.Parent("tabUserFields",1)
+Gui.Form.txtTITLE14.MaxLength(20)
+Gui.Form.txtTITLE15.Create(TextBox,"User 15",True,3045,300,0,6390,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE15.Parent("tabUserFields",1)
+Gui.Form.txtTITLE15.MaxLength(20)
+Gui.Form.txtTITLE16.Create(TextBox,"User 16",True,3045,300,0,9540,3600,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE16.Parent("tabUserFields",1)
+Gui.Form.txtTITLE16.MaxLength(20)
+Gui.Form.txtTITLE17.Create(TextBox,"User 17",True,3045,300,0,90,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE17.Parent("tabUserFields",1)
+Gui.Form.txtTITLE17.MaxLength(20)
+Gui.Form.txtTITLE18.Create(TextBox,"User 18",True,3045,300,0,3240,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE18.Parent("tabUserFields",1)
+Gui.Form.txtTITLE18.MaxLength(20)
+Gui.Form.txtTITLE19.Create(TextBox,"User 19",True,3045,300,0,6390,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE19.Parent("tabUserFields",1)
+Gui.Form.txtTITLE19.MaxLength(20)
+Gui.Form.txtTITLE20.Create(TextBox,"User 20",True,3045,300,0,9540,4710,True,0,"Arial",8,-2147483643,1)
+Gui.Form.txtTITLE20.Parent("tabUserFields",1)
+Gui.Form.txtTITLE20.MaxLength(20)
+Gui.Form.cmdTitleSave.Create(Button)
+Gui.Form.cmdTitleSave.Size(855,375)
+Gui.Form.cmdTitleSave.Position(285,5625)
+Gui.Form.cmdTitleSave.Parent("tabUserFields",1)
+Gui.Form.cmdTitleSave.Caption("Save")
+Gui.Form.cmdTitleSave.Event(Click,cmdSave_Click)
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+'Bix
+'4/9/18
+'Precision Edge Surgical Products Co, LLC
+'GCG_5032
+'Completely rewrote by SKC on 5/29/2018 so that the project could be delivered.
+'This project will save custom user information based on router.  This runs from the Script 2 button on the Router Header screen.
+F.Intrinsic.Control.SelectCase(V.Caller.Hook)
+	F.Intrinsic.Control.Case(11010)
+		V.Passed.000202.Set("Add'l Fields")
+	F.Intrinsic.Control.Case(11130)
+		F.Intrinsic.Control.CallSub(ShowAdditionalUserFields)
+F.Intrinsic.Control.EndSelect
+Program.Sub.Main.End
+
+Program.Sub.ShowAdditionalUserFields.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+'Create Table for the Titles and the user field data
+F.Intrinsic.Control.CallSub(TablesExist)
+'Get Router, Title, and user field data from the custom tables.
+F.Intrinsic.Control.CallSub(PartExists)
+Gui.Form.tabUserFields.SetTab(0)
+Gui.Form..Show
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.ShowAdditionalUserFields.End
+
+Program.Sub.TablesExist.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+V.Local.bTableNotes.Declare
+V.Local.bTableTitles.Declare
+F.Intrinsic.Control.CallSub(OpenConnection)
+'Check to see if the table exists if it doesn't create the table.
+F.ODBC.Connection!con.TableExists("GCG_5032_RTR_USER_F",V.Local.bTableNotes)
+F.ODBC.Connection!con.TableExists("GCG_5032_RTR_USER_T",V.Local.bTableTitles)
+F.Intrinsic.Control.If(V.Local.bTableNotes,=,False)
+	F.Intrinsic.UI.InvokeWaitDialog("Generating Additional Router User Fields Notes Table")
+	F.ODBC.Connection!con.Execute("create table GCG_5032_RTR_USER_F(ROUTER char(20) not null, USER_1 char(50), USER_2 char(50), USER_3 char(50), USER_4 char(50), USER_5 char(50), USER_6 char(50), USER_7 char(50), USER_8 char(50), USER_9 char(50), USER_10 char(50), USER_11 char(50), USER_12 char(50), USER_13 char(50), USER_14 char(50), USER_15 char(50), USER_16 char(50), USER_17 char(50), USER_18 char(50), USER_19 char(50), USER_20 char(50));")
+	F.Intrinsic.UI.CloseWaitDialog
+F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.If(V.Local.bTableTitles,=,False)
+	F.Intrinsic.UI.InvokeWaitDialog("Generating Additional Router User Fields Title Table")
+	F.ODBC.Connection!con.Execute("create table GCG_5032_RTR_USER_T(ROUTER char(20) not null, USER_1 char(20), USER_2 char(20), USER_3 char(20), USER_4 char(20), USER_5 char(20), USER_6 char(20), USER_7 char(20), USER_8 char(20), USER_9 char(20), USER_10 char(20), USER_11 char(20), USER_12 char(20), USER_13 char(20), USER_14 char(20), USER_15 char(20), USER_16 char(20), USER_17 char(20), USER_18 char(20), USER_19 char(20), USER_20 char(20));")
+	F.Intrinsic.UI.CloseWaitDialog
+F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.CallSub(CloseConnection)
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.TablesExist.End
+
+Program.Sub.PartExists.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+V.Local.sRetNotes.Declare
+V.Local.sRetTitles.Declare
+V.Local.sSQL.Declare
+v.Local.sRetPart.Declare
+
+F.Intrinsic.Control.CallSub(OpenConnection)
+'Get the Router number from the custom table, based on the user
+F.Intrinsic.String.GSSPartString(v.Passed.000014, v.Passed.000015, v.Local.sRetPart)
+F.Intrinsic.Control.If(v.Local.sRetPart.Trim, !=, "***NORETURN***")
+	'Get the user field data
+	F.Intrinsic.String.Build("select ROUTER, USER_1, USER_2, USER_3, USER_4, USER_5, USER_6, USER_7, USER_8, USER_9, USER_10, USER_11, USER_12, USER_13, USER_14, USER_15, USER_16, USER_17, USER_18, USER_19, USER_20 from GCG_5032_RTR_USER_F where ROUTER = '{0}'",v.Local.sRetPart,V.Local.sSQL)
+	F.ODBC.Connection!con.ExecuteAndReturn(V.Local.sSQL,V.Local.sRetNotes)
+	'Get the Titles for the user fields.  I used a place holder for a loop that will be used for not only populating the textboxes, but will also be used to update the labels.
+	v.Local.sSQL.Set("select Top 1 '' as PlaceHolder, USER_1, USER_2, USER_3, USER_4, USER_5, USER_6, USER_7, USER_8, USER_9, USER_10, USER_11, USER_12, USER_13, USER_14, USER_15, USER_16, USER_17, USER_18, USER_19, USER_20 from GCG_5032_RTR_USER_T")
+	F.ODBC.Connection!con.ExecuteAndReturn(V.Local.sSQL,V.Local.sRetTitles)
+	'WE have titles, and user field data so lets update the screen
+	F.Intrinsic.Control.CallSub(PopulateTitleLabels, "sTitles", v.Local.sRetTitles, "sValues", v.Local.sRetNotes)
+F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.CallSub(CloseConnection)
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.PartExists.End
+
+Program.Sub.OpenConnection.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+
+F.ODBC.Connection!con.OpenCompanyConnection
+	
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.OpenConnection.End
+
+Program.Sub.CloseConnection.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+	
+F.ODBC.Connection!con.Close
+	
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.CloseConnection.End
+
+Program.Sub.Form_UnLoad.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+	
+F.Intrinsic.Control.End
+	
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.Form_UnLoad.End
+
+Program.Sub.cmdSave_Click.Start
+F.Intrinsic.Control.Try
+V.Local.sError.Declare
+V.Local.sSQL.Declare
+V.Local.iCount.Declare
+v.Local.sTitle.Declare
+v.Local.sRetPart.Declare
+v.Local.sControl.Declare
+v.Local.sFormField.Declare
+v.Local.sLabel.Declare
+v.Local.sRouter.Declare
+v.Local.sWhere.Declare
+Gui.Form..Enabled(False)
+F.Intrinsic.Control.CallSub(OpenConnection)
+'Check to see which save button was clicked.  This is the save on the user field tab.
+F.Intrinsic.Control.If(v.Args.ControlName, =, "CMDUSERSAVE")
+	'This will set the proper custom table.  F is for the user field table
+	V.Local.sControl.Set("F")
+	'This is the control prefix we will need for getting the user field data
+	v.Local.sFormField.Set("txtUSER")
+	'Data is saved based on router so this will be a field in the table that needs to be udpated
+	v.Local.sRouter.Set("Router,")
+	F.Intrinsic.String.GSSPartString(v.Passed.000014, v.Passed.000015, v.Local.sRetPart)
+	'This will add the router number to the insert sql query
+	F.Intrinsic.String.Build("Where Router = '{0}' ", v.Local.sRetPart, v.Local.sWhere)
+	F.Intrinsic.String.Build("'{0}',",v.Local.sRetPart, v.Local.sRetPart)
+	
+F.Intrinsic.Control.Else
+	'This will set the proper custom table.  T is for the Title field table
+	V.Local.sControl.Set("T")
+	'This is the control prefix we will need for getting the title field data
+	v.Local.sFormField.Set("txtTitle")
+	'Make sure other variables are blank.  They are in the insert sql query and are not needed when coming from the title save
+	v.Local.sRouter.Set("")
+	v.Local.sRetPart.Set("")
+	v.Local.sWhere.Set("")
+F.Intrinsic.Control.EndIf
+'Clear Data based on router
+F.Intrinsic.String.Build("Delete From GCG_5032_RTR_USER_{0} {1}", v.Local.sControl, v.Local.sWhere,v.Local.sSQL)
+F.ODBC.Connection!con.Execute(v.Local.sSQL)
+'Build SQL query
+F.Intrinsic.String.Build("insert into GCG_5032_RTR_USER_{0} ({1} USER_1, USER_2, USER_3, USER_4, USER_5, USER_6, USER_7, USER_8, USER_9, USER_10, USER_11, USER_12, USER_13, USER_14, USER_15, USER_16, USER_17, USER_18, USER_19, USER_20) values ({2}", v.Local.sControl,v.Local.sRouter,v.Local.sRetPart, v.Local.sSQL)
+F.Intrinsic.Control.For(v.Local.iCount, 1, 20, 1)
+	F.Intrinsic.String.Build("{0}{1}", v.Local.sFormField,v.Local.iCount, v.Local.sTitle)
+	f.Intrinsic.String.Build("{0}'{1}', ", v.Local.sSQL, v.Screen.Form![v.Local.sTitle].Text, v.Local.sSQL)
+	F.Intrinsic.Control.If(v.Local.sControl, =, "T")
+		'We need to update the lable on the user field tab since a title was changed
+		F.Intrinsic.String.Build("lblUSER{0}", v.Local.iCount, v.Local.sLabel)
+		Gui.Form.[v.Local.sLabel].Text(v.Screen.Form![v.Local.sTitle].Text)
+	F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.Next(v.Local.iCount)
+'Remove the last comma.
+F.Intrinsic.String.Len(v.Local.sSQL, v.Local.iCount)
+F.Intrinsic.Math.Sub(v.Local.iCount, 2, v.Local.iCount)
+F.Intrinsic.String.Left(v.Local.sSQL, v.Local.iCount, v.Local.sSQL)
+F.Intrinsic.String.Build("{0})",v.Local.sSQL, v.Local.sSQL)
+F.ODBC.Connection!con.Execute(v.Local.sSQL)
+F.Intrinsic.Control.CallSub(CloseConnection)
+F.Intrinsic.UI.Msgbox("Saved!")
+Gui.Form..Enabled(True)
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.cmdSave_Click.End
+
+Program.Sub.PopulateTitleLabels.Start
+F.Intrinsic.Control.Try
+v.Local.sTitles.Declare
+v.Local.sLabel.Declare
+v.Local.iCount.Declare
+v.Local.sRetPart.Declare
+v.Local.sValues.Declare
+V.Local.bAccess.Declare
+F.Intrinsic.String.Split(v.Args.sValues, "*!*", v.Local.svalues)
+v.Local.sValues.RedimPreserve(0,20)
+F.Intrinsic.String.Split(v.Args.sTitles,"*!*" ,v.Local.sTitles)
+v.Local.sTitles.RedimPreserve(0,20)
+'Populate the Labels, and textboxes.
+F.Intrinsic.Control.For(v.Local.iCount, 1, v.Local.sTitles.UBound, 1)
+	F.Intrinsic.Control.If(v.Local.sTitles(v.Local.iCount).Trim, !=, "")
+		F.Intrinsic.String.Build("lblUSER{0}", v.Local.iCount, v.Local.sLabel)
+		Gui.Form.[v.Local.sLabel].Text(v.Local.sTitles(v.Local.iCount).trim)
+		F.Intrinsic.String.Build("txtTITLE{0}", v.Local.iCount, v.Local.sLabel)
+		Gui.Form.[v.Local.sLabel].Text(V.local.sTitles(V.Local.icount).trim)
+	F.Intrinsic.Control.EndIf
+	F.Intrinsic.Control.If(v.Local.sValues(v.Local.iCount).Trim,!=, "")
+		F.Intrinsic.String.Build("txtUSER{0}", v.Local.iCount, v.Local.sLabel)
+		Gui.Form.[v.Local.sLabel].Text(V.local.svalues(V.Local.icount).trim)
+	F.Intrinsic.Control.EndIf
+F.Intrinsic.Control.Next(v.Local.iCount)
+'Only certain users can change the titles.
+F.Global.Security.IsInGroup(V.Caller.User,"SPECctrl",V.Local.bAccess)
+F.Intrinsic.Control.If(V.Local.bAccess,=,False)
+	Gui.Form.tabUserFields.TabVisible(1, False)
+F.Intrinsic.Control.EndIf
+gui.Form..Show
+F.Intrinsic.Control.Catch
+	F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Ambient.ScriptPath,V.Ambient.Newline,V.Ambient.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+	F.Intrinsic.UI.Msgbox(V.Local.sError)
+	F.Intrinsic.Control.End
+F.Intrinsic.Control.EndTry
+Program.Sub.PopulateTitleLabels.End
